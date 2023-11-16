@@ -4,6 +4,9 @@
 // Our script creates cookies to save user information like names and email addresses. 
 // Then, another script retrieves these cookies for subsequent user sessions. 
 // This is a common practice in web development for user authentication and data persistence across sessions.
+//Open a web browser.
+//Visit http://localhost:3000/set-cookie to set a cookie.
+//Then, visit http://localhost:3000/get-cookie to retrieve and display the cookie value.
 
 const express = require('express');
 const cookieParser = require('cookie-parser');
