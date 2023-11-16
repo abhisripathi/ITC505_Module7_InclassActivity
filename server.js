@@ -4,7 +4,8 @@
 // If the URL path is not recognized, it sends back 'Page Not Found'. 
 // This demonstrates how server-side programming can handle different requests and send appropriate responses.
 //node server.js
-
+//http://localhost:8080/home
+//http://localhost:8080/other
 const http = require('http');
 
 const server = http.createServer((req, res) => {
