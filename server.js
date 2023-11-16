@@ -3,6 +3,7 @@
 // When someone visits http://localhost:8080/home, our server responds with 'Welcome to Home Page'. 
 // If the URL path is not recognized, it sends back 'Page Not Found'. 
 // This demonstrates how server-side programming can handle different requests and send appropriate responses.
+//node server.js
 
 const http = require('http');
 
