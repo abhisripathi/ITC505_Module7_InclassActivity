@@ -4,18 +4,7 @@
 // This approach is more efficient, especially when dealing with a large number of elements, 
 // as it minimizes the number of event listeners needed.
 
-document.getElementById('itemList').addEventListener('click', function(event) {
-    if (event.target.tagName === 'LI') {
-        event.target.style.color = 'blue';
-    }
-});
 
-// Optional: Reset color if clicked again
-document.getElementById('itemList').addEventListener('dblclick', function(event) {
-    if (event.target.tagName === 'LI') {
-        event.target.style.color = 'red';
-    }
-});
 
 document.addEventListener('DOMContentLoaded', function() {
     const itemList = document.getElementById('itemList');
